@@ -1,0 +1,236 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+header {
+  background: #111;
+  padding: 20px 0;
+  border-bottom: 2px solid #2732ae;
+}
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2756ae;
+  text-decoration: none;
+}
+.links-navegacao {
+  list-style: none;
+  display: flex;
+}
+.links-navegacao li {
+  margin-left: 20px;
+}
+.links-navegacao a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+.links-navegacao a:hover {
+  color: #2742ae;
+}
+
+/* Hero */
+.secao-principal {
+  background: url("https://source.unsplash.com/1200x600/?gym,training") center/cover no-repeat;
+  color: rgb(39, 10, 73);
+  padding: 80px 0;
+  text-align: center;
+}
+.secao-principal h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.secao-principal p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.botao {
+  display: inline-block;
+  background: #2732ae;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.botao:hover {
+  background: #4982bf;
+}
+
+
+.recursos {
+  padding: 60px 0;
+  background: #4956a7;
+}
+.titulo-secao {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.titulo-secao h2 {
+  font-size: 28px;
+  color: #a2afff;
+  margin-bottom: 10px;
+}
+.grade-recursos {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cartao-recurso {
+  background: white;
+  padding: 20px;
+  border: 2px solid #0b0e66;
+  text-align: center;
+  flex: 1 1 30%;
+  min-width: 250px;
+  border-radius: 6px;
+}
+.icone-recurso {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Sobre */
+.sobre {
+  padding: 60px 0;
+}
+.conteudo-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+.texto-sobre {
+  flex: 1;
+  min-width: 300px;
+}
+.texto-sobre h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2758ae;
+}
+.imagem-sobre {
+  flex: 1;
+  min-width: 300px;
+}
+.imagem-sobre img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Contato */
+.contato {
+  padding: 60px 0;
+}
+.contato-conteudo {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.contato-texto {
+  flex: 1 1 250px;
+}
+.contato-texto h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 5px solid #273dae;
+  padding-left: 15px;
+}
+.formulario-contato {
+  flex: 2 1 400px;
+  background: #5d7792;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #09031b;
+}
+.formulario-contato label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #1f0d50;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+.formulario-contato textarea {
+  min-height: 100px;
+}
+
+/* Rodapé */
+footer {
+  background: #111;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+.conteudo-rodape {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 0 20px;
+}
+.secao-rodape {
+  flex: 1 1 30%;
+  min-width: 200px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.rodape-inferior {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .links-navegacao {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .grade-recursos,
+  .conteudo-sobre,
+  .contato-conteudo,
+  .conteudo-rodape {
+    flex-direction: column;
+  }
+  .secao-rodape {
+    text-align: center;
+  }
+}
