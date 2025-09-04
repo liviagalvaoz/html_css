@@ -1,0 +1,198 @@
+body{
+    background-color: rgb(223, 217, 198);
+}
+
+#titulo{
+    color: rgb(54, 31, 5);
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(247, 247, 122);
+    border-radius: 40px;
+}
+
+
+p{
+    color: rgb(29, 29, 105);
+    text-align: center;
+}
+
+
+
+
+
+.tema{
+    color: rgb(36, 82, 36);
+    text-align: center;
+    padding:10px ;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 40px;
+    background-color: rgb(182, 211, 182);
+}
+
+.exemplo{
+    color: rgb(36, 82, 36);
+    text-align: center;
+    padding:10px ;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 40px;
+    background-color: rgb(182, 211, 182);
+}
+
+.possiveis{
+    color: rgb(36, 82, 36);
+    text-align: center;
+    padding:10px ;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 40px;
+    background-color: rgb(182, 211, 182);
+}
+
+
+.curiosidades{
+    color: rgb(36, 82, 36);
+    text-align: center;
+    padding:30px ;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 40px;
+    background-color: rgb(182, 211, 182);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+    color: brown;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+#recortes{
+    padding: 20px;
+    background-color: rgb(187, 162, 209);
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+#div1{
+    text-align: center;
+    color: rgb(7, 47, 7);
+}
+
+
+#centralizado{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(200, 220, 220);
+    border-radius: 20px;
+    margin: 20px 400px;
+}
+
+
+#link-google{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#link-youtube{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.negrito{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 400px;
+}
+
+
+img{
+    border: 3px solid rgb(36, 82, 36);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.paragrafo1{
+    color: purple;
+    text-align: center;
+}
+.paragrafo2{
+    color: orange;
+    text-align: center;
+}
+
+
+#titulo-arial{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgb(54, 31, 5);
+    background-color: rgb(247, 247, 122);
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.italico{
+    font-style: italic;
+    text-align: center;
+    margin: 10px 400px;
+}
+.sublinhado{
+    text-decoration: underline;
+    text-align: center;
+    margin: 10px 400px;
+}
+
+
+#vermelho{background-color:rgb(207, 106, 165); color:rgb(255, 221, 188); text-align:center; padding:20px; margin:10px 400px; border-radius:20px;}
+#verde{background-color:green; color:rgb(255, 221, 188); text-align:center; padding:20px; margin:10px 400px; border-radius:20px;}
+#azul{background-color:rgb(72, 72, 156); color:rgb(255, 221, 188); text-align:center; padding:20px; margin:10px 400px; border-radius:20px;}
+
+
+.destaque{
+    color: rgb(151, 57, 57);
+    font-weight: bold;
+}
+
+
+#caixa-colorida{
+    background-color: rgb(182, 211, 182);
+    border: 2px solid rgb(36, 82, 36);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 400px;
+}
+
+
+a.sublinhado{
+    text-decoration: underline;
+    color: brown;
+    margin: 5px;
+}
+
+.h3{
+    text-align: center;
+    color: darkslategray;
+}
