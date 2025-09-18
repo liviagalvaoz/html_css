@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+}
+
+
+.img-yuri{
+float: left;
+margin: 0 15px 15px 0; }
+
+
+
+.img-depay{
+float: right;
+margin: 0 15px 15px 0; }
+
+
+
+.h21{
+float: left;
+margin: 0 15px 15px 0;
+}
+
+.h22{
+float: right;
+margin: 0 15px 15px 0;
+}
+
+.p1{
+    float: right;
+margin: 0 15px 15px 0;
+}

@@ -1,0 +1,196 @@
+
+/* tabela 1 */
+    .compras th{
+    border: solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    }
+
+.compras{
+    border:solid black;
+}
+
+
+
+/* tabela 2 */
+  .cadastro th{
+
+    background-color: rgb(139, 139, 139);
+    color: white;
+    padding: 10px;
+
+    }
+
+
+/* tabela 3 */
+  .compromissos th{
+    color: rgb(0, 47, 255);
+    text-align: left;
+    }
+  .compromissos td{
+    color: rgb(8, 34, 152);
+    }
+
+/* tabela 4 */
+  .catalogo th{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  text-align: left;
+    }
+  .catalogo td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+
+/* tabela 5 */
+  .notas th{
+  font-size: 20px;
+  text-align: left;
+    }
+  .notas td{
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+/* tabela 6 */
+  .cardapio th{
+  font-size: 20px;
+  text-align: left;
+    }
+  .cardapio td{
+   background-color: rgb(157, 235, 209);
+}
+
+
+/* tabela 7 */
+  .horarios th{
+text-align: center;
+    }
+  .horarios td{
+text-align: center;
+    }
+
+
+/* tabela 8 */
+  .campeonato {
+border: solid black;
+border-width: 10px;
+    }
+  .campeonato th{
+text-align: left;
+padding-right: 10px;
+    }
+  .campeonato td{
+text-align: left;
+padding-right: 20px;
+    }
+
+/* tabela 9 */
+  .precos{
+
+    }
+  .precos th{
+text-align: left;
+background-color: brown;
+color: antiquewhite;
+font-weight:500;
+    }
+  .precos td{
+text-align: left;
+padding-right: 20px;
+    }
+
+    .tabela10 td, .tabela10 th{
+  border: solid black;
+  padding: 15px;
+  text-align: center;
+}
+.tabela11 td {
+  font-style: italic;
+}
+.tabela11 td, .tabela11 th {
+  border: solid black;
+  text-align: center;
+}
+.tabela12 td {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela13 th {
+  background-color: lightblue;
+}
+.tabela13 td, .tabela13 th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela14 {
+  color: green;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela14 th{
+    color: black;
+}
+.tabela15 {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+}
+.tabela15 td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela16 {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela16 tr {
+  background-color: lightyellow;
+}
+.tabela17 th {
+  background-color: black;
+  color: white;
+}
+.tabela17 {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela18{
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.tabela19 th {
+  font-family: "Courier New", monospace;
+}
+.tabela19 {
+  border: 1px solid rgb(92, 34, 34);
+  padding: 8px;
+  text-align: center;
+}
+.tabela20 th {
+  background-color: maroon;
+  color: antiquewhite;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tabela20 td {
+  border: 2px solid rgb(139, 0, 0);
+  color: darkred;
+  background-color: #f0f8ff;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

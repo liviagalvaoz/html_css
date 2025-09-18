@@ -1,0 +1,39 @@
+body{
+    background-color:antiquewhite ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.nava{
+    background-color: rgb(17, 15, 91);
+    padding: 20px;
+    margin: 0px;
+}
+
+
+a{
+color: antiquewhite;
+text-decoration: none;
+margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color:rgb(17, 15, 91);
+    font-size: 50px;
+font-family: Climate Crisis, Arial, sans-serif;
+margin-bottom: 0%;
+
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(53, 25, 3);
+    padding: 5px;
+}
+
+.imagem-inicio{
+    text-align: center;
+    width: auto;
+}
